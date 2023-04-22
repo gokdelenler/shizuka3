@@ -20,14 +20,14 @@ SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001815710063"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "efsanemuss")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1940508871").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY") 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Papaa012/yenishizuki",
+    "https://github.com/gokdelenler/shizuka3",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GITHUB_REPO = getenv("GITHUB_REPO", None)
@@ -62,7 +62,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AQBT_qzgZMhXUMBhT_bVH4MBqwr8p8A1-7hvnnZ5VhAiQD-Ng2MChBG8MHR_A_E5FxhelCsEBzAueVWru9T4ITFWY2nLuKzu4cnJYvAXaeZYfbn_tueFKyBtArTNNnL-pwO5_iDYbQdz5bjBKf7mCd7yZJcHwyTqmMsC9SyfiJDn4seeNzdPPdTYC3abayRSEg6J13cPGrdctwGRZXtaTEjBkEfx8Yvgf1V1dNn5lCKCX3GrwXQLJJ8RAz_7uKvQ9VcRvWnXe0F20BOf84Zlm4oHRYJtugoRqgWSvVE1kMBZMVbzKsIOmRpiginEsd0UROQDe3bD5h8AGPCmnu4wAO4pAAAAAUWMaIMA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
